@@ -1,0 +1,13 @@
+{
+  "name": "dev",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "main",
+  "workspaceFolder": "/workspace",
+  "remoteUser": "vscode",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20.12.2",
+      "nodeGypDependencies": false
+    }
+  }
+}
